@@ -1,4 +1,4 @@
-﻿#first parameter supplied to script is mailbox to lookup
+﻿#first parameter supplied to script is mailbox to lookup .
 
 $inbox = $args[0]
 
