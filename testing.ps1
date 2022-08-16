@@ -2,4 +2,9 @@ $data = Get-Service | where-Object status -eq 'Stopped' | select-Object Name, St
 
 $data | export-csv .\testing.csv
 
-get-content .\services.csv | more
+get-content .\testing.csv | more
+
+
+Get-NetIPAddress
+Get-NetIPConfiguration
+Get-DNSClientServerAddress
