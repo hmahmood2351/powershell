@@ -1,4 +1,11 @@
-﻿#Adds from a list of e-mail addresses in text file OutlookAddDistributionGroup.txt to distribution group specified via script argument
+﻿#Adds from a list of e-mail addresses in text file OutlookAddDistributionGroup.txt
+
+
+### USAGE EXAMPLE
+# [scriptname] [email of distribution list]
+# .\OutlookAddDistributionGroupMembers.ps1 Ushers@roh.org.uk
+
+###
 
 $group = $args[0]
 
